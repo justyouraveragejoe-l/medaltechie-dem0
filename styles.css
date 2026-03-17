@@ -182,20 +182,20 @@ nav {
     display: none;
     flex-direction: column;
     gap: 5px;
-    background: rgba(42, 77, 136, 0.2);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(42, 77, 136, 0.18);
+    background: rgba(42, 77, 136, 0.25);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(42, 77, 136, 0.35);
     border-radius: 12px;
     padding: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 16px rgba(42, 77, 136, 0.15);
+    box-shadow: 0 4px 16px rgba(42, 77, 136, 0.25);
 }
 
 .hamburger-menu:hover {
-    background: rgba(42, 77, 136, 0.12);
+    background: rgba(42, 77, 136, 0.4);
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(42, 77, 136, 0.25);
+    box-shadow: 0 6px 20px rgba(42, 77, 136, 0.35);
 }
 
 .hamburger-line {
@@ -279,12 +279,12 @@ nav {
         right: 5%;
         flex-direction: column;
         gap: 0;
-        background: rgba(42, 77, 136, 0.08);
+        background: rgba(42, 77, 136, 0.25);
         backdrop-filter: blur(30px);
-        border: 1px solid rgba(42, 77, 136, 0.18);
+        border: 1px solid rgba(42, 77, 136, 0.35);
         border-radius: 20px;
         padding: 20px;
-        box-shadow: 0 10px 40px rgba(42, 77, 136, 0.25);
+        box-shadow: 0 10px 40px rgba(42, 77, 136, 0.35);
         
         /* Hidden by default */
         opacity: 0;
@@ -303,7 +303,7 @@ nav {
     .nav-links li {
         width: 100%;
         padding: 12px 20px;
-        border-bottom: 1px solid rgba(42, 77, 136, 0.1);
+        border-bottom: 1px solid rgba(42, 77, 136, 0.2);
     }
 
     .nav-links li:last-child {
